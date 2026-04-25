@@ -5,18 +5,26 @@ layout: default
 
 # EX09 - Data Analysis for Continuous Improvement
 
+<img src="<custom-path>/static/imgs/logo.png" alt="Image of Comp110 rainbow logo. "  width="500"/>
+
 ## Summary of Analysis
 
-This bar chart to show how many students selected each response level (1 stands for strongly disagree and 7 being strongly agree.) According to the graph, the highest frequency occurs at 7, and a substantial number of responses fall between 5 and 6, suggesting that the majority of students believe that pre-lectures videos can improve their learning outcomes.
+### Chart1: Distribution of Support for Pre-lecture videos
+This bar chart to show how many students selected each response level.
 <img src="/a-project/static/imgs/chart1.png" alt="Chart 1" width="500"/>
+The x-axis shows students' response levels from 1 to 7, where 1 means strongly disagree and 7 means strongly agree. The y-axis shows the number of students who selected each response. The According to the graph, the highest frequency occurs at 7, and a substantial number of responses fall between 5 and 6, suggesting that the majority of students believe that pre-lectures videos can improve their learning outcomes.
 
+### Chart2: Understanding vs Support for Pre-lecture videos
 Next, I explore how students with different levels of understanding differ in their support for pre-lecture videos. This does not show if pre-lecture videos improve learning outcomes, but instead help clarify whether students with a relatively lower understanding perceive a greater need for such resources. Rather than summarizing responses by group, I want to visualize each student’s response for understanding and pre-lecture videos as an individual point. This helps to show a general trend of whether students with lower or higher understanding tend to report different needs for videos.
-Based on the graph, there is a moderate to low negative treand between students' level of understanding and their support for pre-lecture videos. Students with lower self-reported understanding tend to report slightly higher support for pre-lecture videos, whereas those with higher understanding show relatively lower support.
+<img src="/a-project/static/imgs/chart2.png" alt="Chart 2" width="500"/>
+The x-axis shows students' self-reported level of understanding, and the y-axis shows their level of support for pre-lecture videos. Both variables are measured on a 1–7 scale. Based on the graph, there is a moderate to low negative treand between students' level of understanding and their support for pre-lecture videos. Students with lower self-reported understanding tend to report slightly higher support for pre-lecture videos, whereas those with higher understanding show relatively lower support.
 However, the difference across groups are relatively small because their error bars overlap greatly, suggesting that this relationship is relatively weak.
 
-<img src="/a-project/static/imgs/chart2.png" alt="Chart 2" width="500"/>
-
+### Chart3: Support for Pre-lecture videos and Livestream Lectures and 
+Finally, the following graph explore whether students who support pre-lecture videos also tend to support livestreamed lectures. Since both are online, video-based resources, this serves as additional evidence for students' general openness to non-traditional lecture formats, showing the feasibility of providing online materials. 
 <img src="/a-project/static/imgs/chart3.png" alt="Chart 3" width="500"/>
+The x-axis shows students' level of support for adding livestreamed lectures, and the y-axis shows their level of support for pre-lecture videos. Both variables are measured on a 1–7 scale.The boxplot above shows a clear positive relationship between support for pre-lecture videos and livestreamed lectures. However, their error bars have huge variability within each group, and overlap across groups, indicating that the trend may not be significant.
+
 
 ## Conclusion
 
@@ -35,5 +43,3 @@ Future work could use an experiment to compare the learning outcomes of students
 Although this approach can offer better data to assess my idea, this experiment has several potential costs and trade-offs. The instructors need to put extra time and effort into creating pre-lecture videos. If teaching assistants help create videos or find video resources, they would need extra training and compensation, which creates additional costs. Students may also be negatively impacted if they feel that "optional" videos are actually necessary to keep up with the class.
 
 <!-- This is a comment. Below, you'll see code for inserting an image. To make this image appear, update <custom-path>. To add an image, save it inside the imgs folder of this repository. -->
-<img src="<custom-path>/static/imgs/logo.png" alt="Image of Comp110 rainbow logo. "  width="500"/>
-
