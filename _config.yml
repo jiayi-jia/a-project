@@ -27,7 +27,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "/a-project" 
 url: "https://jiayi-jia.github.io" 
 twitter_username: jekyllrb
-github_username:  jekyll
+github_username:  jiayi_jia
 
 # Build settings
 # Build settings
